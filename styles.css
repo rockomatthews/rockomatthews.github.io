@@ -6,7 +6,17 @@ body {
     background-position: top;
 }
 
-li#pic {
+li#pic1 {
+	display: inline;
+	padding-right: 20px;
+}
+
+li#pic2 {
+	display: inline;
+	padding-right: 20px;
+}
+
+li#pic3 {
 	display: inline;
 	padding-right: 20px;
 }
@@ -21,10 +31,12 @@ header {
 	font-family: arial, sans-serif;
 }
 
-a:link {
-    color: yellow;
+a:visited {
+    color: green;
 }
 
-a:hover {
-    color: yellow;
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #00ff00;
+  }
 }
